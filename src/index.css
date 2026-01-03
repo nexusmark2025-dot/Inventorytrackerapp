@@ -1011,6 +1011,58 @@
   }
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.page-content {
+  animation: .3s ease-in fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-btn {
+  color: #6b7280;
+}
+
+.nav-btn:hover {
+  color: #111827;
+  background-color: #f3f4f6;
+}
+
+.nav-btn.active {
+  color: #1d4ed8;
+  background-color: #dbeafe;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
 :root {
   --font-size: 16px;
   --background: #fff;
